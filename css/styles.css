@@ -1,0 +1,147 @@
+body{
+    font-family: "montserrat";
+    text-align: center;
+}
+/*container*/
+.container-fluid{
+    padding: 7% 15%;
+    
+}
+/*section*/
+.colored-section{
+    background-color:#ff4c68;
+    color: #eff3ee;
+}
+.white-section{
+    background-color: #fff;
+}
+.h1,h2,h3,h4,h5,h6{
+    font-family: "montserrat-bold";
+}
+
+p{
+    color: gray;
+}
+/* //heading */
+.big-heading{
+    font-family: "montserrat-black";
+    line-height: 1.2;
+    font-size: 3.5;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 0.625rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:"montserrat-light";
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+/* //dwonload buttona */
+.download-button{
+    margin:  5% 3% 5% 0;
+    }
+
+
+.title-img{
+    width: 55%;
+    transform: rotate(25deg);
+    right: 30%;
+    position: absolute;
+}
+
+/* //fearures */
+#features{
+   
+    
+    position: relative;
+    z-index:1;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box{
+    
+    padding:4.5%;
+}
+.icon{
+    color:orangered;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+
+}
+/* <!-- Testimonials --> */
+#testimonials{
+   
+  
+    background-color: #ef8172;
+ 
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+}
+
+.testm-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+#press{
+    background-color: #ef8172;
+ 
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 1.25rem 1.12rem 3.125rem;
+}
+/* //pricinf */
+#pricing{
+    padding: 6.25rem;
+
+}
+#pricing-col{
+    padding:3% 2%;
+}
+.mid-heading{
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+}
+/* footer */
+
+.cta-heading{
+    font-family:"Montserrat-Black";
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+   
+ 
+}
+.social-icon{
+    margin: 20px 10px;
+    align-items: center;
+}
+
+
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;transform: rotate(0);
+    }
+}
